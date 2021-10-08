@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    outline: 0;
+	    font-weight: inherit;
+	    font-style: inherit;
+	    font-size: 100%;
+	    font-family: inherit;
+	    vertical-align: baseline;
+    }
+    .clearfix:before,
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size:0;
+}
+.clearfix { *zoom:1;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+footer {
+    background-color: #1b1b31;
+    padding-top: 110px;
+    /* padding-bottom: 150px; */
+}
+.footer-top {
+    padding-bottom: 160px;
+}
+.footer-top .left>a{
+    transition: all 0.2s;
+}
+.footer-top .left>a:hover {
+    color: #fff;
+}
+footer h3,footer h4 {
+    font-family: 'Playfair Display';
+    color: #fff;
+    font-weight: 700;
+}
+footer h3{
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+footer h4 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+footer p,footer a {
+    color: #9c9cae;
+}
+footer a {
+    transition: all 0.2s;
+}
+footer p{
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+footer h4.list{
+    margin-bottom: 28px;
+}
+footer ul li{
+    margin-bottom: 16px;
+}
+footer a:hover {
+    color: #ea4c89;
+}
+footer input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #38384b;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    background: transparent;
+    color: #fff;
+}
+footer .inputbox {
+    margin-bottom: 55px;
+}
+footer .footer-banner {
+    border-top: 1px solid #26263b;
+    padding-left: 480px;
+}
+footer .footer-banner span,footer .footer-banner a{
+    display: inline-block;
+    line-height: 90px;
+}
+footer .footer-banner span{
+    color: #fff;
+}
+footer .footer-banner a{
+    color: #ea4c89;
+}
+.btns {
+    display: inline-block;
+    padding: 12px 20px;
+    font-weight: 500;
+    background-color: #ea4c89;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.btns:hover {
+    color: #fff;
+}
+.btns::before {
+    content: '';
+    position: absolute;
+    background-color: #68B028;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.btns:hover::before {
+    width: 100%; 
+}

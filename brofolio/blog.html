@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_2847310_kxrrehb998b.css"> 
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- wow -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.dowebok.com/98/css/animate.min.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <header style="overflow: hidden;">
+        <div class="container">
+            <div class="header-top">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./images/Logo-2.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <nav>
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                    data-target="#example-navbar-collapse">
+                                    <span class="sr-only">切换导航</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <ul class="nav nav-pills">
+                                <li class="dropdown home">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="./index.html">
+                                        Home <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-list one">
+                                        <li><a href="#" class="btn">Home 1</a></li>
+                                        <li><a href="#" class="btn">Home 2</a></li>
+                                        <li><a href="#" class="btn">Home 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown protfolio">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="./proflio.html">
+                                        Protfolio 
+                                    </a>
+                                    <ul class="dropdown-list one">
+                                        <li><a href="./proflio.html" class="btn">Protfolio</a></li>
+                                        <li><a href="#" class="btn">Protfolio Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown pages">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        Pages <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-list two">
+                                        <li><a href="./about.html" class="btn">About Us</a></li>
+                                        <li><a href="./contact.html" class="btn">Contact Us</a></li>
+                                        <li><a href="./proflio.html" class="btn">Portfolio</a></li>
+                                        <li><a href="./team.html" class="btn">Team</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="./blog.html">
+                                        Blog
+                                    </a>
+                                    <ul class="dropdown-list">
+                                        <li><a href="./blog.html" class="btn">Blog</a></li>
+                                        <li><a href="#" class="btn">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./contact.html">Contact us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="ham">
+                            <button><i></i><i></i><i></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner">
+                <h2>Our Blog</h2>
+                <ul>
+                    <li><a href="./index.html">Home - </a><a href="#">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="content">
+                <button><i class="fa fa-times"></i></button>
+                <div class="logo">
+                    <a href="#">
+                        <img src="./images/Logo.png" alt="">
+                    </a>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-list">
+                        <h4>
+                            Contact Info
+                        </h4>
+                        <ul>
+                            <li><i class="fa fa-clock-o"></i><a href="#">12/A, Mirnada City Tower, NYC</a></li>
+                            <li><i class="fa fa-clock-o"></i><a href="#">Mon - Fri: 9.00am - 11.00pm</a></li>
+                            <li><i class="fa fa-clock-o"></i><a href="#">+876 864 764 764</a></li>
+                            <li><i class="fa fa-clock-o"></i><a href="#">[email protected]</a></li>
+                        </ul>
+                        <div class="contact-btn">
+                            <a href="#" class="btns">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list">
+                    <ul>
+                        <li><a><i class="fa fa-facebook"></i></a></li>
+                        <li><a><i class="fa fa-facebook"></i></a></li>
+                        <li><a><i class="fa fa-facebook"></i></a></li>
+                        <li><a><i class="fa fa-facebook"></i></a></li>
+                        <li><a><i class="fa fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="page"></div>
+    </header>
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="content-left">
+                        <div class="blog-item">
+                            <div class="pic">
+                                <img src="./images/blog-2.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <div class="people">
+                                    <div class="person clearfix">
+                                        <div class="col-lg-3">
+                                            <div class="name">
+                                                <a href="#">
+                                                    <img src="./images/user-1.jpg" alt="">
+                                                    <h6>Jake Weary</h6>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="time">
+                                            <span>23 June 2020</span>
+                                        </div>
+                                    </div>
+                                    <h3>
+                                        <a href="#">Businesses Are Thriving, Societies Are Not. Time for Urgent
+                                            Change</a>
+                                    </h3>
+                                    <p>I don't want no agro say chimney pot plastered bamboozled arse Why dropped a
+                                        clanger cheeky bloke, Eaton crikey morish me old mucker cuppa[...]</p>
+                                    <a href="#" class="btns">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-item"></div>
+                    </div>
+                    <div class="content-left">
+                        <div class="blog-item">
+                            <div class="pic">
+                                <img src="./images/blog-3.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <div class="people">
+                                    <div class="person clearfix">
+                                        <div class="col-lg-3">
+                                            <div class="name">
+                                                <a href="#">
+                                                    <img src="./images/user-2.jpg" alt="">
+                                                    <h6>Jake Weary</h6>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="time">
+                                            <span>23 June 2020</span>
+                                        </div>
+                                    </div>
+                                    <h3>
+                                        <a href="#">Businesses Are Thriving, Societies Are Not. Time for Urgent
+                                            Change</a>
+                                    </h3>
+                                    <p>I don't want no agro say chimney pot plastered bamboozled arse Why dropped a
+                                        clanger cheeky bloke, Eaton crikey morish me old mucker cuppa[...]</p>
+                                    <a href="#" class="btns">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-item"></div>
+                    </div>
+                    <div class="text">
+                        <p>Oxford ruddy off his nut, bum bag is lavatory baking cakes bubble and squeak cheesed off what a plonker.!</p>
+                    </div>
+                    <div class="content-left">
+                        <div class="blog-item">
+                            <div class="pic">
+                                <img src="./images/blog-5.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <div class="people">
+                                    <div class="person clearfix">
+                                        <div class="col-lg-3">
+                                            <div class="name">
+                                                <a href="#">
+                                                    <img src="./images/user-4.jpg" alt="">
+                                                    <h6>Jake Weary</h6>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="time">
+                                            <span>23 June 2020</span>
+                                        </div>
+                                    </div>
+                                    <h3>
+                                        <a href="#">Businesses Are Thriving, Societies Are Not. Time for Urgent
+                                            Change</a>
+                                    </h3>
+                                    <p>I don't want no agro say chimney pot plastered bamboozled arse Why dropped a
+                                        clanger cheeky bloke, Eaton crikey morish me old mucker cuppa[...]</p>
+                                    <a href="#" class="btns">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-item"></div>
+                    </div>
+                    <div class="banner">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-long-arrow-left"></i></a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">···</a></li>
+                            <li><a href="#"><i class="fa fa-long-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content-right">
+                        <div class="search">
+                            <input type="text" placeholder="Search...">
+                            <button><i class="fa fa-search"></i></button>
+                        </div>
+                        <div class="news">
+                            <h4>Recent News</h4>
+                            <div class="news-items">
+                                <div class="new-item clearfix">
+                                    <div class="col-lg-3">
+                                        <a href="#">
+                                            <img src="./images/rc-1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-9 author">
+                                        <h6><a href="#">Best website traffice Booster with great tools.</a></h6>
+                                        <span>March 04, 2020</span>
+                                    </div>
+                                </div>
+                                <div class="new-item clearfix">
+                                    <div class="col-lg-3">
+                                        <a href="#">
+                                            <img src="./images/rc-2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-9 author">
+                                        <h6><a href="#">Best website traffice Booster with great tools.</a></h6>
+                                        <span>March 04, 2020</span>
+                                    </div>
+                                </div>
+                                <div class="new-item clearfix">
+                                    <div class="col-lg-3">
+                                        <a href="#">
+                                            <img src="./images/rc-3.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-9 author">
+                                        <h6><a href="#">Best website traffice Booster with great tools.</a></h6>
+                                        <span>March 04, 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categories">
+                            <h4>Categories</h4>
+                            <div class="content">
+                                <ul>
+                                    <li><a href="#"><i class="iconfont icon-dayuhao"></i>Web Design (6)</a></li>
+                                    <li><a href="#"><i class="iconfont icon-dayuhao"></i> Web Development (14)</a></li>
+                                    <li><a href="#"><i class="iconfont icon-dayuhao"></i>Graphics (12)</a></li>
+                                    <li><a href="#"><i class="iconfont icon-dayuhao"></i>IOS/Android Design (10)</a></li>
+                                    <li><a href="#"><i class="iconfont icon-dayuhao"></i>App & Saas (4)</a></li>
+                                    <li><a href="#"><i class="iconfont icon-dayuhao"></i>Fresh Products (9)</a></li>
+                                    <li><a href="#"><i class="iconfont icon-dayuhao"></i>Saas Design (8)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="comments">
+                            <h4>Recent Comments</h4>
+                            <div class="news-items">
+                                <div class="comment-item clearfix">
+                                    <div class="col-lg-3">
+                                        <i class="fa fa-comment-o"></i>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <h6>Justin Case</h6>
+                                        <p>My lady mush hanky panky young delinquent.!</p>
+                                    </div>
+                                </div>
+                                <div class="comment-item clearfix">
+                                    <div class="col-lg-3">
+                                        <i class="fa fa-comment-o"></i>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <h6>Eric Widget</h6>
+                                        <p>My lady mush hanky panky young delinquent.!</p>
+                                    </div>
+                                </div><div class="comment-item clearfix">
+                                    <div class="col-lg-3">
+                                        <i class="fa fa-comment-o"></i>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <h6>Penny Tool</h6>
+                                        <p>My lady mush hanky panky young delinquent.!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular">
+                            <h4>Popular Tags</h4>
+                            <div class="tags">
+                                <a href="#">The Saas</a><a href="#">Pix Saas Blog</a><a href="#">Landing</a><a href="#">UI/UX Design</a><a href="#">Branding</a><a href="#">Animation</a><a href="#">Design</a><a href="#">Ideas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Let’s talk.</h3>
+                        <p>You’ll called for yielding <br> male, abundantly is their.</p>
+                        <h4>Email Address</h4>
+                        <p>[email protected]</p>
+                        <h4>Mobile Phone:</h4>
+                        <a href="#">+1254787843</a>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="list">Quick link</h4>
+                                <ul>
+                                    <li><a href="#">Our Team</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Angel Investor</a></li>
+                                    <li><a href="#">Offices</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 class="list">About</h4>
+                                <ul>
+                                    <li><a href="#">Project</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Help</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="inputbox">
+                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="Last Name">
+                            <input type="text" placeholder="Message" class="message">
+                        </div>
+                        <a href="#" class="btns"><span>Send Message</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-banner">
+            <span>Copyright © 2021 All Rights Reserved passion by <strong><a href="#">theme_pure</a></strong></span>
+        </div>
+
+    </footer>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/blog.js"></script>
+</body>
+
+</html>

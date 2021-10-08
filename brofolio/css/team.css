@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li {
+    list-style: none;
+}
+a, a:hover {
+    text-decoration: none;
+}
+section,footer {
+    width: 100%;
+    background-color: #fff;
+}
+header {
+    background-image: url(../images/abougbg.png);
+    position: relative;
+    background-repeat: no-repeat;
+    padding-bottom: 191px;
+}
+header::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #020233;
+    opacity: 70%;
+    content: "";
+}
+.header-top img {
+    margin-top: 20px;
+    color: #fff;
+}
+.header-top ul {
+    margin-left: 10px;
+}
+.header-top ul.nav>li>a:hover {
+    color: #fc7587;
+    background-color: #020233;
+}
+.header-top ul>li a{
+    color: #fff;
+    line-height: 86px;
+    padding: 0;
+    margin-right: 45px;
+}
+.header-top nav .dropdown {
+    position: relative;
+}
+.header-top nav .dropdown-list {
+    background-color: #fff;
+    width: 180px;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 86px;
+    left: -12px;
+}
+.header-top nav .dropdown-list li .btn{
+    color: black;
+    line-height: 45px;
+    padding-left: 20px;
+}
+header .btn{
+    position: relative;
+    z-index: 1;
+}
+header .btn:hover {
+    color: #fff;
+}
+header .btn::before{
+    content:'';
+    position: absolute;
+    background: #ea4c89;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s;
+}
+header .btn:hover::before{
+    width: 178px;
+}
+.show {
+    display: block;
+}
+.ham {
+    margin-top: 35px;
+    float: right;
+}
+.ham button {
+    border: none;
+    background-color: #020233;
+}
+.ham i {
+    display: block;
+    width: 20px;
+    background-color: #fff;
+    padding-top: 2px;
+}
+.ham i:nth-child(2) {
+    width: 10px;
+    margin-left: 10px;
+}
+.ham i+i {
+    margin-top: 5px;
+}
+header .banner {
+    position: relative;
+    z-index: 2;
+    margin-top: 200px;
+}
+header .banner h2{
+    font-size: 72px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+header .banner ul {
+    text-align: center;
+}
+header .banner ul li a{
+    font-size: 18px;
+    color: #fff;
+}
+header .banner ul li a:hover {
+    color: #ea4c89;
+}
+.page{
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 6;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+.menu {
+    padding: 20px 25px;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #fff;
+    z-index: 8;
+    transition: all .6s;
+}
+.menu button {
+    background-color: #fff;
+    border: none;
+}
+.menu .logo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.menu .contact-list h4{
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.menu .contact-list ul>li>i {
+    display: inline-block;
+    color: #EA4C89;
+    width: 25px;
+}
+.menu .contact-list ul li a {
+    color: #647589;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+.menu .contact-btn a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu .menu-list ul li {
+    display: inline-block;
+}
+.menu .menu-list ul li a{
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    text-transform: capitalize;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 1px;
+    background: #393f53;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.swiper-container{
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
+}
+.team-box{
+    background-color: #fff;
+    position: relative;
+}
+.team-box .text span,.team-box .text h3{
+    display: block;
+    text-align: center;
+}
+.team-box .text span{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.team-box .text h3 {
+    font-size: 18px;
+    font-weight: 800;
+}
+.team-box .text h3 a {
+    color: #000;
+}
+.team-box .box {
+    margin-bottom: 10px;
+    position: relative;
+}
+.team-box .pic img {
+    display: block;
+    width: 100%;
+}
+.team-box .box::before{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 100%;
+    top: 0;
+    transition: height 0.5s;
+    background:  #ea4c89;
+}
+.team-box .box:hover::before {
+    height: 100%;
+    opacity: 0.8;
+}
+.team-box .hover{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.teams {
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+.team-box {
+    margin-bottom: 30px;
+}
+.team-box .hover>ul>li>a {
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #ffffff;
+    line-height: 38px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
